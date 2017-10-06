@@ -1,0 +1,68 @@
+---
+- id: wave_armor_cruizer_kayak
+  title: Wave Armor Cruizer Kayak
+  visible: true
+  description:
+    Wave Armor Cruizer kayaks Sit-on-Top style designed for all ages and all
+    abilities. The unique high-speed hull design offers outstanding performance,
+    excellent stability, and is virtually indestructible. Cruizer kayaks are
+    easily paddled and glide effortlessly through the water. Designed for use on
+    lakes, ponds, and slower moving rivers.
+  features:
+    - Great for flat water, rivers, or light surf
+    - Tough &amp; Weatherproof, Polyethylene construction Sit-on-Top Style
+    - Spacious Cockpit with Added Legroom High-Speed Hull reduces drag
+    - Molded-in beverage holder &amp; foot rests
+    - Carry handles for easy transport
+  specifications:
+    length: 8' 6"
+    beam: 30"
+    depth: 15"
+    carry_weight: 36 lbs
+    max_capacity: 180 lbs
+  prices:
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 50
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- id: wave_armor_impulse_kayak
+  title: Wave Armor Impulse Kayak
+  visible: true
+  description:
+    Wave Armor Cruizer kayaks Sit-on-Top style designed for all ages and all
+    abilities. The unique high-speed hull design offers outstanding performance,
+    excellent stability, and is virtually indestructible. Cruizer kayaks are
+    easily paddled and glide effortlessly through the water. Designed for use on
+    lakes, ponds, and slower moving rivers.
+  features:
+    - Great for flat water, rivers, or light surf
+    - Tough &amp; Weatherproof, Polyethylene construction Sit-on-Top Style
+    - Spacious Cockpit with Added Legroom High-Speed Hull reduces drag
+    - Molded-in beverage holder &amp; foot rests
+    - Carry handles for easy transport
+    - Padded Seat for Comfort
+  specifications:
+    length: 10'
+    beam: 31"
+    depth: 10"
+    carry_weight: 45 lbs
+    max_capacity: 300 lbs
+  prices:
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 55
+  images:
+  - name: 1
+    format: jpg

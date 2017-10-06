@@ -1,0 +1,126 @@
+---
+layout: default
+title: Used &amp; Consignment
+permalink: /used_consignment/
+---
+
+<section class="wrapper style1">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Used Boat Lifts</h2>
+        <table class="table table-striped table-hover table-sm">
+          <thead class="thead-inverse">
+            <tr>
+              <th>Description</th>
+              <th>Capacity</th>
+              <th>Width</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% assign used_lifts = site.data.used_lifts | where: "visible" , "true" %}
+            {% assign used_lifts_count = used_lifts | size %}
+            {% if used_lifts_count == 0 %}
+              <tr>
+                <td colspan="4">
+                  There are currently no items available.
+                </td>
+              </tr>
+            {% endif %}
+            {% for used_lift in used_lifts %}
+              <tr>
+                <td>{{ used_lift.description }}</td>
+                <td>{{ used_lift.capacity }}</td>
+                <td>{{ used_lift.width }}</td>
+                <td>{{ used_lift.price }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <em>*Plus Sales Tax</em>
+
+        <h2>Used Docks</h2>
+        <table class="table table-striped table-hover table-sm">
+          <thead class="thead-inverse">
+            <tr>
+              <th>Description</th>
+              <th>Length</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% assign used_docks = site.data.used_docks | where: "visible" , "true" %}
+            {% assign used_docks_count = used_docks | size %}
+            {% if used_docks_count == 0 %}
+              <tr>
+                <td colspan="3">
+                  There are currently no items available.
+                </td>
+              </tr>
+            {% endif %}
+            {% for used_dock in used_docks %}
+              <tr>
+                <td>{{ used_dock.description }}</td>
+                <td>{{ used_dock.length }}</td>
+                <td>{{ used_dock.price }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <em>*Plus Sales Tax</em>
+
+        <h2>Used Outboards</h2>
+        <table class="table table-striped table-hover table-sm">
+          <thead class="thead-inverse">
+            <tr>
+              <th>Year</th>
+              <th>Model HP</th>
+              <th>Brand</th>
+              <th>Serial #</th>
+              <th>Fuel Tank</th>
+              <th>Remote Control Price</th>
+              <th>Engine Only Price</th>
+              <th>In House Warranty</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% assign used_engines = site.data.used_engines | where: "visible" , "true" %}
+            {% assign used_engines_count = used_engines | size %}
+            {% if used_engines_count == 0 %}
+              <tr>
+                <td colspan="8">
+                  There are currently no items available.
+                </td>
+              </tr>
+            {% endif %}
+            {% for used_engine in used_engines %}
+              <tr>
+                <td>{{ used_engine.year }}</td>
+                <td>{{ used_engine.horse_power }}</td>
+                <td>{{ used_engine.manufacturer }}</td>
+                <td>{{ used_engine.serial_number }}</td>
+                <td>{{ used_engine.fuel_tank }}</td>
+                <td>{{ used_engine.remote_price }}</td>
+                <td>{{ used_engine.engine_only_price }}</td>
+                <td>{{ used_engine.warranty }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <em>*Fuel lines not included ($40 w/Used Motor)</em>
+
+        <h3>Model Abbreviations</h3>
+        <ul class="list-unstyled">
+          <li><strong>M</strong> Manual</li>
+          <li><strong>L</strong> Long Shaft 20&quot;</li>
+          <li><strong>H</strong> Tiller Handle</li>
+          <li><strong>O</strong> Oil Injection</li>
+          <li><strong>PT</strong> Power Trim</li>
+          <li><strong>BF</strong> Big Foot</li>
+          <li><strong>4-S</strong> Four Stroke</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

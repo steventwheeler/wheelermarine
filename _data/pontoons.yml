@@ -1,0 +1,419 @@
+---
+- number: 1
+  title: 19' Ercoa
+  visible: true
+  capacity: 12
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front and Rear Fishing Seats
+    - Premium Vinyl Flooring
+    - 50 HP EFI Mercury 4-Stroke Bigfoot
+  body:
+  prices:
+    - 200
+    - 300
+    - 450
+    - 600
+    - 700
+    - 725
+    - 750
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 2
+  title: 20' Cruise & Cast
+  visible: true
+  capacity: 12
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Fishing Seats Front
+    - 60 HP EFI Mercury 4-Stroke Bigfoot
+    - Lounge Seats Rear
+  body:
+  prices:
+    - 220
+    - 320
+    - 475
+    - 600
+    - 700
+    - 750
+    - 800
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 3
+  title: 24' Premier Sunspree RF
+  visible: true
+  capacity: 12
+  specifications:
+    - AUX IN Stereo
+    - Depth Finder
+    - Front Luxury Lounges
+    - Rear Luxury Lounges
+    - Rear Entry / Permanant Boarding Ladder
+    - Luxury Vinyl Seagrass Flooring
+    - 115 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+    - 350
+    - 500
+    - 700
+    - 900
+    - 1050
+    - 1150
+    - 1250
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+  - name: 3
+    format: jpg
+  - name: 4
+    format: jpg
+- number: 4
+  title: 20' Bennington Fishing Deluxe
+  visible: true
+  capacity: 10
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front and Rear Fishing Seats
+    - Mid L-Lounge
+    - Rear Entry Ladder
+    - 60 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 220
+  - 320
+  - 480
+  - 640
+  - 750
+  - 775
+  - 800
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 5
+  title: 20' Kennedy Fishing DLX
+  visible: true
+  capacity: 12
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front and Rear Fishing Seats
+    - 60 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 220
+  - 320
+  - 480
+  - 640
+  - 750
+  - 775
+  - 800
+  images:
+  - name: 1
+    format: jpg
+- number: 6
+  title: 20' Kennedy Super DLX
+  visible: true
+  capacity: 12
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Full Rear Sundeck
+    - Full Lounge Seating
+    - 50 HP EFI Mercury 4-Stroke
+  prices:
+  - 220
+  - 320
+  - 480
+  - 640
+  - 750
+  - 775
+  - 800
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 7
+  title: 23' Premier Alante
+  visible: true
+  capacity: 14
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Luxury Front Reclining Seats
+    - Mid Lounge Area
+    - Rear Fishing Seats
+    - Rear Entry Ladder
+    - 60 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 270
+  - 370
+  - 555
+  - 740
+  - 900
+  - 950
+  - 1000
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 8
+  title: 23' Premier Sunsation
+  visible: true
+  capacity: 14
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Luxury Vinyl Flooring
+    - Rear Sundeck
+    - Lounge Seating
+    - 60 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 270
+  - 370
+  - 555
+  - 740
+  - 900
+  - 950
+  - 1000
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+  - name: 3
+    format: jpg
+  - name: 4
+    format: jpg
+- number: 9
+  title: 23' Ercoa Deluxe Green
+  visible: true
+  capacity: 14
+  specifications:
+    - AUX IN Stereo
+    - Depth Finder
+    - Sundeck
+    - Luxury Recliner Front Seating
+    - Rear Entry Ladder
+    - 60 HP EFI Mercury 4-Stroke Bigfoot
+  body:
+  prices:
+  - 260
+  - 360
+  - 540
+  - 720
+  - 850
+  - 875
+  - 900
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 10
+  title: 23' Ercoa Deluxe Tan
+  visible: true
+  capacity: 14
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Rear Lounge
+    - Premuim Vinyl Flooring
+    - High Back Front Seating Group
+    - 60 HP EFI Mercury 4-Stroke Bigfoot
+  body:
+  prices:
+  - 260
+  - 360
+  - 540
+  - 720
+  - 850
+  - 875
+  - 900
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 11
+  title: 25' Ercoa Deluxe Tritoon
+  visible: true
+  capacity: 15
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front Fishing Seats
+    - Rear Entry Swimming Ladder
+    - Rear Sun Deck
+    - Lounge Seating
+    - 115 HP EFI Mercury 4-Stroke
+    - Triple Pontoon
+  prices:
+  - 350
+  - 450
+  - 650
+  - 850
+  - 1000
+  - 1100
+  - 1200
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 12
+  title: 24' Palm Beach
+  visible: true
+  capacity: 13
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Luxury Vinyl Flooring
+    - Lounge Seating
+    - 115 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 325
+  - 425
+  - 625
+  - 825
+  - 1000
+  - 1100
+  - 1200
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 13
+  title: 24' Premier SunSation
+  visible: true
+  capacity: 16
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front Fishing Seats
+    - Rear Lounging Seats
+    - Rear Sun Deck
+    - Removable Boarding Ladder
+    - 115 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 300
+  - 400
+  - 600
+  - 800
+  - 950
+  - 1050
+  - 1150
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 14
+  title: 24' Premier Sunsation Gray
+  visible: true
+  capacity: 16
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front Lounge and Cocktail Seating
+    - Large Rear Lounge
+    - Rear Entry Ladder
+    - 90 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 300
+  - 400
+  - 600
+  - 800
+  - 950
+  - 1050
+  - 1150
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 15
+  title: 18' Premier Leisure
+  visible: true
+  capacity: 8
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front Fishing Seats
+    - Rear L-Lounge
+    - Rear Sundeck
+    - Luxury Woven Vinyl Floor
+    - Rear Entry Ladder
+    - 60 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+  - 220
+  - 320
+  - 475
+  - 600
+  - 700
+  - 750
+  - 800
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+- number: 16
+  title: 20' Premier Horizon
+  visible: true
+  capacity: 11
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Front and Rear Fishing Seats
+    - Mid Lounge
+    - 60 HP EFI Mercury 4-Stroke Bigfoot
+  body:
+  prices:
+  - 220
+  - 320
+  - 475
+  - 600
+  - 700
+  - 750
+  - 800
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg

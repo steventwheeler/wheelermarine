@@ -1,0 +1,10 @@
+---
+- year: 2010
+  horse_power: 90
+  manufacturer: Mercury
+  serial_number: M123456789
+  fuel_tank: Yes
+  remote_price: $100
+  engine_only_price: $1000
+  warranty: 90 Day
+  visible: false

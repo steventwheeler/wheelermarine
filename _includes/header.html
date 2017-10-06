@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{% if (page.title != "" and page.title != nil) %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script src="https://use.fontawesome.com/c816d4034b.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.flexslider-min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/flexslider.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/flexslider.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/wm.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1><a href="{{ site.baseurl }}/" id="logo">{{ site.title }}</a></h1>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        {% assign current = page.url | downcase | split: '/' %}
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown {% if (page.url == '/' or current[1] == 'used_consignment') %}active{% endif %}">
+                <a class="nav-link dropdown-toggle" href="#" id="home-menu-dropdown-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu" aria-labelledby="home-menu-dropdown-link">
+                  <a class="dropdown-item {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+                  <a class="dropdown-item {% if current[1] == 'used_consignment' %}active{% endif %}" href="{{ site.baseurl }}/used_consignment">Used / Consignment</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown {% if (current[1] == 'rentals' or current[1] == 'delivery_charges' or current[1] == 'invasive_species') %}active{% endif %}">
+                <a class="nav-link dropdown-toggle" href="#" id="home-menu-dropdown-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rentals</a>
+                <div class="dropdown-menu" aria-labelledby="home-menu-dropdown-link">
+                  <a class="dropdown-item {% if current[1] == 'rentals' %}active{% endif %}" href="{{ site.baseurl }}/rentals">Rentals</a>
+                  <a class="dropdown-item {% if current[1] == 'delivery_charges' %}active{% endif %}" href="{{ site.baseurl }}/delivery_charges">Delivery Charges</a>
+                  <a class="dropdown-item {% if current[1] == 'invasive_species' %}active{% endif %}" href="{{ site.baseurl }}/invasive_species">Invasive Species</a>
+                </div>
+              </li>
+              <li class="nav-item {% if current[1] == 'products_services' %}active{% endif %}">
+                <a class="nav-link" href="{{ site.baseurl }}/products_services">Products &amp; Services</a>
+              </li>
+              <li class="nav-item {% if current[1] == 'contact' %}active{% endif %}">
+                <a class="nav-link" href="{{ site.baseurl }}/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>

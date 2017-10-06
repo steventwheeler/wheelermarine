@@ -1,0 +1,6 @@
+---
+- description: Testing lift
+  capacity: 2000
+  width: '108"'
+  price: $1000
+  visible: false

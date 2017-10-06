@@ -1,0 +1,116 @@
+---
+layout: default
+---
+
+<section class="wrapper style1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrapper style2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          {{ page.description }}
+        </p>
+
+        <h2>Features</h2>
+        <ul>
+          {% for spec in page.features %}
+            <li>{{ spec }}</li>
+          {% endfor %}
+        </ul>
+
+        <h2>Included</h2>
+        <ul>
+          <li>1x Life Preserver</li>
+          <li>1x Paddle</li>
+          <li>1x SUP</li>
+        </ul>
+
+        <h2>Specifications</h2>
+        <dl class="row">
+          <dt class="col-sm-6">Length:</dt>
+          <dd class="col-sm-6">{{ page.specifications.length }}</dd>
+
+          <dt class="col-sm-6">Beam:</dt>
+          <dd class="col-sm-6">{{ page.specifications.beam }}</dd>
+
+          <dt class="col-sm-6">Depth:</dt>
+          <dd class="col-sm-6">{{ page.specifications.depth }}</dd>
+
+          <dt class="col-sm-6">Carry Weight:</dt>
+          <dd class="col-sm-6">{{ page.specifications.carry_weight }}</dd>
+
+          <dt class="col-sm-6">Max Capacity:</dt>
+          <dd class="col-sm-6">{{ page.specifications.max_capacity }}</dd>
+        </dl>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Rental Pricing</h2>
+        <table class="table table-striped table-hover table-sm">
+          <thead class="thead-inverse">
+            <tr>
+              <th>1&nbsp;Day</th>
+              <th>2&nbsp;Days</th>
+              <th>3&nbsp;Days</th>
+              <th>4&nbsp;Days</th>
+              <th>5&nbsp;Days</th>
+              <th>6&nbsp;Days</th>
+              <th>7&nbsp;Days</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {% for price in page.prices %}
+                <td>${{ price }}</td>
+              {% endfor %}
+            </tr>
+          </tbody>
+        </table>
+
+        {% assign image_count = page.images | size %}
+        {% if image_count > 0 %}
+          <section class="slider">
+            <div class="flexslider">
+              <ul class="slides">
+                {% for image in page.images %}
+                  <li>
+                    <img alt="SUP Image" src="{{ site.basedir }}/assets/images/sups/{{ page.id }}/{{ image.name }}.{{ image.format }}" class="rounded" />
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </section>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrapper style3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>
+          &quot;SAVE 10%&quot; on SUP Rental w/ Pontoon Rental or Second SUP / Kayak
+        </p>
+        <p>
+          Kayak and SUP rentals must be picked up from:
+          <address>
+            Wheeler Marine<br />
+            2403 State 84 NW<br />
+            Longville MN 56655
+          </address>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,73 @@
+---
+- id: pelican_sup_106
+  title: Pelican SUP 106
+  visible: true
+  description:
+    Whether you are new to the sport of stand up paddle boarding or you have
+    been enjoying it for years, the Pelican &reg; Flow 106 Stand Up Paddle Board
+    is a perfect choice! Enjoy exploring your local lakes and rivers on this
+    durable paddle board, made from Pelican&#39;s &reg; proprietary RAM-X
+    &trade; material. An anti-slip deck pad ensures secure footing. Use the
+    convenient carry handles to transport your board from your vehicle to the
+    water.
+  features:
+    - Great for flat water, rivers, or light surf
+    - Made of Pelican&#39;s &reg; durable proprietary RAM-X &trade; material
+    - Anti-slip deck pad provides traction
+    - Flexible rubber fin
+    - Carry handles for easy transport
+  specifications:
+    length: 10' 5"
+    beam: 32"
+    depth: 6"
+    carry_weight: 48 lbs
+    max_capacity: 230 lbs
+  prices:
+    - 50
+    - 60
+    - 70
+    - 80
+    - 90
+    - 100
+    - 100
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+  - name: 3
+    format: jpg
+- id: viper_sup_104
+  title: Viper SUP 104
+  visible: true
+  description:
+    Whether you are new to the sport of stand up paddle boarding or you have
+    been enjoying it for years, the Viper &reg; 104 Stand Up Paddle Board is a
+    perfect choice! Enjoy exploring your local lakes and rivers on this durable
+    paddle board. An anti-slip deck pad ensures secure footing. Use the
+    convenient carry handles to transport your board from your vehicle to the
+    water.
+  features:
+    - Great for flat water, rivers, or light surf
+    - Anti-slip deck pad provides traction
+    - Durable fin
+    - Carry handles for easy transport
+  specifications:
+    length: 10' 4"
+    beam: 33"
+    depth: 6"
+    carry_weight: 48 lbs
+    max_capacity: 250 lbs
+  prices:
+    - 40
+    - 50
+    - 60
+    - 70
+    - 75
+    - 75
+    - 75
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
