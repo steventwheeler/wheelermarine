@@ -15,7 +15,7 @@ layout: default
 <section class="wrapper style2">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <h2>Specifications</h2>
         <ul>
           {% for spec in page.specifications %}
@@ -33,7 +33,7 @@ layout: default
         </ul>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <h2>Rental Pricing</h2>
         <table class="table table-striped table-hover table-sm">
           <thead class="thead-inverse">
@@ -63,7 +63,7 @@ layout: default
               <ul class="slides">
                 {% for image in page.images %}
                   <li>
-                    <img alt="Pontoon Image" src="{{ site.basedir }}/assets/images/pontoons/{{ page.number }}/{{ image.name }}.{{ image.format }}" class="rounded" />
+                    <img alt="Pontoon Image" src="{{ site.baseurl }}/assets/images/pontoons/{{ page.number }}/{{ image.name }}.{{ image.format }}" class="img-fluid rounded" />
                   </li>
                 {% endfor %}
               </ul>
