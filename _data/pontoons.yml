@@ -1,53 +1,54 @@
 ---
 - number: 1
-  title: 19' Ercoa
+  title: 20' Premier Horizon Black
   visible: true
-  capacity: 12
+  capacity: 11
   specifications:
     - AUX IN Stereo
     - Livewell
     - Depth Finder
-    - Front and Rear Fishing Seats
-    - Premium Vinyl Flooring
-    - 50 HP EFI Mercury 4-Stroke Bigfoot
+    - Rear Entry Swim Ladder
+    - Front Fishing Seats
+    - Rear Lounge Seats
+    - Premium Vinyl Weave Flooring
+    - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    - 200
-    - 300
-    - 450
-    - 600
-    - 700
-    - 725
-    - 750
+    1-day: 325
+    mon-thu: 160
+    fri-sun: 210
+    weekly: 850
+    additional_discount: 0.25
   images:
   - name: 1
     format: jpg
   - name: 2
     format: jpg
 - number: 2
-  title: 20' Cruise & Cast
+  title: 20' Southbay
   visible: true
-  capacity: 12
+  capacity: 10
   specifications:
     - AUX IN Stereo
     - Livewell
     - Depth Finder
-    - Fishing Seats Front
+    - Luxury Vinyl Weave Flooring
+    - Rear Entry Swim Ladder
+    - Mid Lounge Seat
+    - Fishing Seats Front and Rear
     - 60 HP EFI Mercury 4-Stroke Bigfoot
-    - Lounge Seats Rear
   body:
   prices:
-    - 220
-    - 320
-    - 475
-    - 600
-    - 700
-    - 750
-    - 800
+    1-day: 325
+    mon-thu: 160
+    fri-sun: 210
+    weekly: 850
   images:
   - name: 1
     format: jpg
   - name: 2
+    format: jpg
+  - name: 3
     format: jpg
 - number: 3
   title: 24' Premier Sunspree RF
@@ -56,6 +57,7 @@
   specifications:
     - AUX IN Stereo
     - Depth Finder
+    - Livewell
     - Front Luxury Lounges
     - Rear Luxury Lounges
     - Rear Entry / Permanant Boarding Ladder
@@ -63,13 +65,10 @@
     - 115 HP EFI Mercury 4-Stroke
   body:
   prices:
-    - 350
-    - 500
-    - 700
-    - 900
-    - 1050
-    - 1150
-    - 1250
+    1-day: 500
+    mon-thu: 250
+    fri-sun: 300
+    weekly: 1300
   images:
   - name: 1
     format: jpg
@@ -87,19 +86,17 @@
     - AUX IN Stereo
     - Livewell
     - Depth Finder
+    - Luxury Vinyl Weave Flooring
     - Front and Rear Fishing Seats
     - Mid L-Lounge
     - Rear Entry Ladder
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 220
-  - 320
-  - 480
-  - 640
-  - 750
-  - 775
-  - 800
+    1-day: 320
+    mon-thu: 160
+    fri-sun: 210
+    weekly: 850
   images:
   - name: 1
     format: jpg
@@ -117,39 +114,37 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 220
-  - 320
-  - 480
-  - 640
-  - 750
-  - 775
-  - 800
+    1-day: 300
+    mon-thu: 150
+    fri-sun: 200
+    weekly: 800
   images:
   - name: 1
     format: jpg
 - number: 6
-  title: 20' Kennedy Super DLX
+  title: 24' Princecraft Vectra
   visible: true
   capacity: 12
   specifications:
     - AUX IN Stereo
     - Livewell
     - Depth Finder
-    - Full Rear Sundeck
+    - Luxury Vinyl Weave Flooring
+    - Rear Entry Swim Ladder
+    - Rear Sundeck
     - Full Lounge Seating
-    - 50 HP EFI Mercury 4-Stroke
+    - 60 HP EFI Mercury 4-Stroke
   prices:
-  - 220
-  - 320
-  - 480
-  - 640
-  - 750
-  - 775
-  - 800
+    1-day: 400
+    mon-thu: 200
+    fri-sun: 250
+    weekly: 1000
   images:
   - name: 1
     format: jpg
   - name: 2
+    format: jpg
+  - name: 3
     format: jpg
 - number: 7
   title: 23' Premier Alante
@@ -159,6 +154,7 @@
     - AUX IN Stereo
     - Livewell
     - Depth Finder
+    - Luxury Vinyl Weave Flooring
     - Luxury Front Reclining Seats
     - Mid Lounge Area
     - Rear Fishing Seats
@@ -166,13 +162,10 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 270
-  - 370
-  - 555
-  - 740
-  - 900
-  - 950
-  - 1000
+    1-day: 400
+    mon-thu: 200
+    fri-sun: 250
+    weekly: 1000
   images:
   - name: 1
     format: jpg
@@ -186,19 +179,16 @@
     - AUX IN Stereo
     - Livewell
     - Depth Finder
-    - Luxury Vinyl Flooring
-    - Rear Sundeck
+    - Luxury Vinyl Weave Flooring
+    - Rear SunDeck
     - Lounge Seating
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 270
-  - 370
-  - 555
-  - 740
-  - 900
-  - 950
-  - 1000
+    1-day: 400
+    mon-thu: 200
+    fri-sun: 250
+    weekly: 1000
   images:
   - name: 1
     format: jpg
@@ -221,13 +211,10 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-  - 260
-  - 360
-  - 540
-  - 720
-  - 850
-  - 875
-  - 900
+    1-day: 375
+    mon-thu: 185
+    fri-sun: 235
+    weekly: 950
   images:
   - name: 1
     format: jpg
@@ -247,13 +234,10 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-  - 260
-  - 360
-  - 540
-  - 720
-  - 850
-  - 875
-  - 900
+    1-day: 375
+    mon-thu: 185
+    fri-sun: 235
+    weekly: 950
   images:
   - name: 1
     format: jpg
@@ -274,13 +258,10 @@
     - 115 HP EFI Mercury 4-Stroke
     - Triple Pontoon
   prices:
-  - 350
-  - 450
-  - 650
-  - 850
-  - 1000
-  - 1100
-  - 1200
+    1-day: 500
+    mon-thu: 250
+    fri-sun: 300
+    weekly: 1300
   images:
   - name: 1
     format: jpg
@@ -299,13 +280,10 @@
     - 115 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 325
-  - 425
-  - 625
-  - 825
-  - 1000
-  - 1100
-  - 1200
+    1-day: 450
+    mon-thu: 225
+    fri-sun: 275
+    weekly: 1200
   images:
   - name: 1
     format: jpg
@@ -326,13 +304,10 @@
     - 115 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 300
-  - 400
-  - 600
-  - 800
-  - 950
-  - 1050
-  - 1150
+    1-day: 450
+    mon-thu: 225
+    fri-sun: 275
+    weekly: 1200
   images:
   - name: 1
     format: jpg
@@ -352,13 +327,10 @@
     - 90 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 300
-  - 400
-  - 600
-  - 800
-  - 950
-  - 1050
-  - 1150
+    1-day: 450
+    mon-thu: 225
+    fri-sun: 275
+    weekly: 1200
   images:
   - name: 1
     format: jpg
@@ -380,13 +352,10 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-  - 220
-  - 320
-  - 475
-  - 600
-  - 700
-  - 750
-  - 800
+    1-day: 320
+    mon-thu: 160
+    fri-sun: 220
+    weekly: 800
   images:
   - name: 1
     format: jpg
@@ -405,13 +374,61 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-  - 220
-  - 320
-  - 475
-  - 600
-  - 700
-  - 750
-  - 800
+    1-day: 300
+    mon-thu: 150
+    fri-sun: 200
+    weekly: 800
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+
+- number: 17
+  title: 27' Premier Boundary Waters
+  visible: true
+  capacity: 17
+  specifications:
+    - AUX IN Stereo
+    - Depth Finder
+    - Luxury Vinyl Weave Flooring
+    - Front Wrap Around Lounge
+    - Rear Entry Swimming Ladder
+    - Rear Lounge Seating
+    - 60 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+    1-day: 450
+    mon-thu: 225
+    fri-sun: 275
+    weekly: 1200
+  images:
+  - name: 1
+    format: jpg
+  - name: 2
+    format: jpg
+  - name: 3
+    format: jpg
+
+- number: 18
+  title: 22' Sweetwater
+  visible: true
+  capacity: 12
+  specifications:
+    - AUX IN Stereo
+    - Livewell
+    - Depth Finder
+    - Luxury Vinyl Weave Flooring
+    - Front Bucket Seats
+    - Rear Lounge
+    - Rear Entry Ladder
+    - 90 HP EFI Mercury 4-Stroke
+  body:
+  prices:
+    1-day: 450
+    mon-thu: 225
+    fri-sun: 275
+    weekly: 1200
   images:
   - name: 1
     format: jpg

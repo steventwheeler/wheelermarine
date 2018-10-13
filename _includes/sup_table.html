@@ -1,0 +1,32 @@
+<h2>SUPs</h2>
+<table class="table table-striped table-hover table-sm">
+  <thead class="thead-inverse">
+    <tr>
+      <th>SUP</th>
+      <th></th>
+      <th>1 Day</th>
+      <th>2 Days</th>
+      <th>3 Days</th>
+      <th>4 Days</th>
+      <th>5 Days</th>
+      <th>6 Days</th>
+      <th>7 Days</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for sup in site.data.sups %}
+      {% if sup.visible != true %}{% continue %}{% endif %}
+      <tr>
+        <td><a href="{{ site.baseurl }}/sups/{{ sup.id }}">{{ sup.title }}</a></td>
+        <td></td>
+        <td>${{ sup.prices[0] }}</td>
+        <td>${{ sup.prices[1] }}</td>
+        <td>${{ sup.prices[2] }}</td>
+        <td>${{ sup.prices[3] }}</td>
+        <td>${{ sup.prices[4] }}</td>
+        <td>${{ sup.prices[5] }}</td>
+        <td>${{ sup.prices[6] }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

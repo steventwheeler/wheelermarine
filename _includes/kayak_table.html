@@ -1,0 +1,32 @@
+<h2>Kayaks</h2>
+<table class="table table-striped table-hover table-sm">
+  <thead class="thead-inverse">
+    <tr>
+      <th>Kayak</th>
+      <th></th>
+      <th>1 Day</th>
+      <th>2 Days</th>
+      <th>3 Days</th>
+      <th>4 Days</th>
+      <th>5 Days</th>
+      <th>6 Days</th>
+      <th>7 Days</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for kayak in site.data.kayaks %}
+      {% if kayak.visible != true %}{% continue %}{% endif %}
+      <tr>
+        <td><a href="{{ site.baseurl }}/kayaks/{{ kayak.id }}">{{ kayak.title }}</a></td>
+        <td></td>
+        <td>${{ kayak.prices[0] }}</td>
+        <td>${{ kayak.prices[1] }}</td>
+        <td>${{ kayak.prices[2] }}</td>
+        <td>${{ kayak.prices[3] }}</td>
+        <td>${{ kayak.prices[4] }}</td>
+        <td>${{ kayak.prices[5] }}</td>
+        <td>${{ kayak.prices[6] }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

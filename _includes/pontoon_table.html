@@ -1,0 +1,28 @@
+<h2>Pontoons</h2>
+<table class="table table-striped table-hover table-sm">
+  <thead class="thead-inverse">
+    <tr>
+      <th>#</th>
+      <th>Pontoon</th>
+      <th>Capacity</th>
+      <th>One Day</th>
+      <th>Monday - Thursday</th>
+      <th>Friday - Sunday</th>
+      <th>Weekly</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for pontoon in site.data.pontoons %}
+      {% if pontoon.visible != true %}{% continue %}{% endif %}
+      <tr>
+        <td><a href="{{ site.baseurl }}/pontoons/{{ pontoon.number }}">{{ pontoon.number }}</a></td>
+        <td><a href="{{ site.baseurl }}/pontoons/{{ pontoon.number }}">{{ pontoon.title }}</a></td>
+        <td>{{ pontoon.capacity }}</td>
+        <td>${{ pontoon.prices.1-day }}</td>
+        <td>${{ pontoon.prices.mon-thu }}</td>
+        <td>${{ pontoon.prices.fri-sun }}</td>
+        <td>${{ pontoon.prices.weekly }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
