@@ -34,20 +34,22 @@ a {
 
 #header {
   text-align: center;
-  padding: 3em 0 0 0;
+  padding: 0;
   background-color: #fff;
   background-position:  top left,          top left,          top left;
   background-size:      100% 6em,          100% 6em,          auto;
   background-repeat:    no-repeat,         no-repeat,         repeat;
 
   h1 {
-    padding: 0 0 2.75em 0;
+    padding: 2.75em 0 2.75em 0;
     margin: 0;
 
     a {
-      font-size: 1.5em;
+      text-align: center;
+      font-size: 2em;
       letter-spacing: -0.025em;
       border: 0;
+      font-weight: bold;
     }
   }
 }
@@ -56,7 +58,7 @@ a {
   background-image: url('../images/banner.jpg');
   background-position: center center;
   background-size: cover;
-  height: 28em;
+  height: 20em;
   text-align: center;
   position: relative;
 
