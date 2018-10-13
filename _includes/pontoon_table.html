@@ -18,9 +18,9 @@
         <td><a href="{{ site.baseurl }}/pontoons/{{ pontoon.number }}">{{ pontoon.number }}</a></td>
         <td><a href="{{ site.baseurl }}/pontoons/{{ pontoon.number }}">{{ pontoon.title }}</a></td>
         <td>{{ pontoon.capacity }}</td>
-        <td>${{ pontoon.prices.1-day }}</td>
-        <td>${{ pontoon.prices.mon-thu }}</td>
-        <td>${{ pontoon.prices.fri-sun }}</td>
+        <td>${{ pontoon.prices.one_day }}</td>
+        <td>${{ pontoon.prices.mon_thu }}</td>
+        <td>${{ pontoon.prices.fri_sun }}</td>
         <td>${{ pontoon.prices.weekly }}</td>
       </tr>
     {% endfor %}

@@ -14,9 +14,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 325
-    mon-thu: 160
-    fri-sun: 210
+    one_day: 325
+    mon_thu: 160
+    fri_sun: 210
     weekly: 850
     additional_discount: 0.25
   images:
@@ -39,9 +39,9 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-    1-day: 325
-    mon-thu: 160
-    fri-sun: 210
+    one_day: 325
+    mon_thu: 160
+    fri_sun: 210
     weekly: 850
   images:
   - name: 1
@@ -65,9 +65,9 @@
     - 115 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 500
-    mon-thu: 250
-    fri-sun: 300
+    one_day: 500
+    mon_thu: 250
+    fri_sun: 300
     weekly: 1300
   images:
   - name: 1
@@ -93,9 +93,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 320
-    mon-thu: 160
-    fri-sun: 210
+    one_day: 320
+    mon_thu: 160
+    fri_sun: 210
     weekly: 850
   images:
   - name: 1
@@ -114,9 +114,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 300
-    mon-thu: 150
-    fri-sun: 200
+    one_day: 300
+    mon_thu: 150
+    fri_sun: 200
     weekly: 800
   images:
   - name: 1
@@ -135,9 +135,9 @@
     - Full Lounge Seating
     - 60 HP EFI Mercury 4-Stroke
   prices:
-    1-day: 400
-    mon-thu: 200
-    fri-sun: 250
+    one_day: 400
+    mon_thu: 200
+    fri_sun: 250
     weekly: 1000
   images:
   - name: 1
@@ -162,9 +162,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 400
-    mon-thu: 200
-    fri-sun: 250
+    one_day: 400
+    mon_thu: 200
+    fri_sun: 250
     weekly: 1000
   images:
   - name: 1
@@ -185,9 +185,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 400
-    mon-thu: 200
-    fri-sun: 250
+    one_day: 400
+    mon_thu: 200
+    fri_sun: 250
     weekly: 1000
   images:
   - name: 1
@@ -211,9 +211,9 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-    1-day: 375
-    mon-thu: 185
-    fri-sun: 235
+    one_day: 375
+    mon_thu: 185
+    fri_sun: 235
     weekly: 950
   images:
   - name: 1
@@ -234,9 +234,9 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-    1-day: 375
-    mon-thu: 185
-    fri-sun: 235
+    one_day: 375
+    mon_thu: 185
+    fri_sun: 235
     weekly: 950
   images:
   - name: 1
@@ -258,9 +258,9 @@
     - 115 HP EFI Mercury 4-Stroke
     - Triple Pontoon
   prices:
-    1-day: 500
-    mon-thu: 250
-    fri-sun: 300
+    one_day: 500
+    mon_thu: 250
+    fri_sun: 300
     weekly: 1300
   images:
   - name: 1
@@ -280,9 +280,9 @@
     - 115 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 450
-    mon-thu: 225
-    fri-sun: 275
+    one_day: 450
+    mon_thu: 225
+    fri_sun: 275
     weekly: 1200
   images:
   - name: 1
@@ -304,9 +304,9 @@
     - 115 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 450
-    mon-thu: 225
-    fri-sun: 275
+    one_day: 450
+    mon_thu: 225
+    fri_sun: 275
     weekly: 1200
   images:
   - name: 1
@@ -327,9 +327,9 @@
     - 90 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 450
-    mon-thu: 225
-    fri-sun: 275
+    one_day: 450
+    mon_thu: 225
+    fri_sun: 275
     weekly: 1200
   images:
   - name: 1
@@ -352,9 +352,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 320
-    mon-thu: 160
-    fri-sun: 220
+    one_day: 320
+    mon_thu: 160
+    fri_sun: 220
     weekly: 800
   images:
   - name: 1
@@ -374,9 +374,9 @@
     - 60 HP EFI Mercury 4-Stroke Bigfoot
   body:
   prices:
-    1-day: 300
-    mon-thu: 150
-    fri-sun: 200
+    one_day: 300
+    mon_thu: 150
+    fri_sun: 200
     weekly: 800
   images:
   - name: 1
@@ -398,9 +398,9 @@
     - 60 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 450
-    mon-thu: 225
-    fri-sun: 275
+    one_day: 450
+    mon_thu: 225
+    fri_sun: 275
     weekly: 1200
   images:
   - name: 1
@@ -425,9 +425,9 @@
     - 90 HP EFI Mercury 4-Stroke
   body:
   prices:
-    1-day: 450
-    mon-thu: 225
-    fri-sun: 275
+    one_day: 450
+    mon_thu: 225
+    fri_sun: 275
     weekly: 1200
   images:
   - name: 1
